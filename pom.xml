@@ -15,32 +15,26 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
-
-			<sonar.organization>leider-20</sonar.organization>
-			<sonar.projectKey>Leider-20_arqsoftlab2</sonar.projectKey>
-			<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-
+		<sonar.organization>leider-20</sonar.organization>
+		<sonar.projectKey>Leider-20_arqsoftlab2</sonar.projectKey>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>com.github.javafaker</groupId>
 			<artifactId>javafaker</artifactId>
 			<version>1.0.2</version>
 		</dependency>
-
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -49,5 +43,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
