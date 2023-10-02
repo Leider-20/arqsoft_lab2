@@ -1,1 +1,1 @@
-# arqsoft_lab2
+# arqsoftlab2
